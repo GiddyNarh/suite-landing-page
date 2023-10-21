@@ -1,0 +1,116 @@
+@media screen and (max-width:430px){
+    body{
+        width: 23.4375rem;
+        height: 149.3125rem;
+        overflow-x: hidden;
+        position: relative;
+        left: -10px;
+        
+    }
+    header{
+        display: flex;
+        width: 21.4375rem;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5rem;
+        margin-left: 2rem;
+    }
+    .suite-top{
+        color: var(--Dark-Blue, #172339);
+        font-family: Epilogue;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem; /* 100% */
+        letter-spacing: -0.02775rem;
+    }
+    .btn-1{
+        color: var(--Dark-Blue, #172339);
+        font-family: Epilogue;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5rem; /* 171.429% */
+        letter-spacing: -0.00875rem;
+    }
+   .top-curve{
+    position: relative;
+    right: 15px;
+    top: 0;
+    width: 9.467rem;
+    height: 1.1875rem;
+    flex-shrink: 0;
+
+   }
+    .phone-image{
+        position: relative;
+        border-radius: 0.9375rem;
+        width: 21.4375rem;
+        height: 15rem;
+        flex-shrink: 0;
+       left: -5.5pc;
+    }
+    .super-solution{
+        color: #172339;
+        font-family: Epilogue;
+        font-size: 2.375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.75rem;
+        letter-spacing: -0.033rem;
+        width: 300px;
+        position: relative;
+        top: -15px;
+        right: -50px;
+    }
+    .writings{
+        position: relative;
+       bottom: 25px;
+       right: -5rem;
+    }
+    .btn-2{
+        border-radius: 0.375rem;
+        background: var(--Dark-Blue, #172339);
+    }   
+    .particulars{
+        display: block;
+        position: relative;
+        top: 9rem;
+        padding-bottom: 7pc;
+    }
+    .particulars span{
+        position: relative;
+        right: 3.5rem;
+    }
+    .jeremy-photo{
+        position: relative;
+        top: -10rem;
+        left: 3.5pc;
+        width: 250px;
+        height: 300px;
+    }
+    .jeremy{
+        margin-top: 12pc;
+        margin-left: 1rem;
+        width: 22.4375rem;
+        height: 800px;
+    }
+    .paragraph-2{
+        position: relative;
+        left: -12.654rem;
+        top: 12rem;
+    }
+    .curve{
+        position: relative;
+        left: -7.4365rem;
+    }
+    .paragraph-2 h3{
+        position: relative;
+        top: 2rem;
+    }
+    footer{
+        position: relative;
+        left: 10rem;
+        padding-top: 3rem;
+    }
+}

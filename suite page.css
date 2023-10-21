@@ -1,0 +1,243 @@
+body{
+    width: 1154px;
+    height: 100vh;
+    position: relative;
+    left: 2%;    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding-bottom: 5pc;
+}
+.header img{
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; /* 100% */
+    letter-spacing: -0.02775rem;
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 129px;
+}
+.phone-image{
+    position: absolute;
+    z-index: -1;
+    left: 36.4%;
+}
+.super-solution{
+    font-size: 4.5rem;
+    width: 550px;
+}
+.top-curve{
+    position: relative;
+    left: 27%;
+    top: 10%;
+}
+button{
+    height: 50px;
+    border-radius: 10%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border:none;
+    width:150px ;
+    cursor: pointer;
+    border-bottom: 2px solid;
+    transition: all 0.3s ease-in-out;
+}
+.btn-1{
+    background-color: beige;
+    color: rgba(14, 14, 44, 0.76);
+    font-weight: 700;
+}
+.btn-2{
+    color: beige;
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+
+
+    font-weight: 700;
+}
+.btn-1:hover{
+    transform: translateY(-5px);
+    color: beige;
+    background-color: rgba(14, 14, 44, 0.76);
+}
+.btn-2:hover{
+    transform: translateY(-5px);
+    background-color: rgba(14, 14, 44, 0.76);
+    color: beige;
+}
+article{
+    width: 10%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 150px;
+    color: var(--Grey, #49566D);
+   font-feature-settings: 'clig' off, 'liga' off;
+   font-family: Epilogue;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.625rem;
+   letter-spacing: 0.15625rem;
+    
+}
+article span{
+    font-size: 2.5rem;
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+    color: black;
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+   font-size: 3rem;
+    font-style: normal;
+   font-weight: 700;
+   line-height: 3.5rem; /* 116.667% */
+   letter-spacing: -0.03125rem;
+}
+.writings{
+    margin-top: 2pc;
+   font-size: 1rem;
+   font-weight: 100;
+  color: rgb(148, 146, 146);
+}
+.jeremy{
+    display: flex;
+    margin-top: 90px;
+    margin-right: 10rem;
+    width: 69.3125rem;
+    height: 34.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: var(--Dark-Blue, #172339);
+
+}
+.curve{
+    width: 4.00306rem;
+    height: 3.25rem;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #FAF8F6;
+    position: relative;
+    top: 170px;
+    left: 70px;
+}
+.paragraph-2{
+    width: 21.875rem;
+    color: var(--Cream, #F3EDE7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875rem; /* 175% */
+    letter-spacing: 0.00625rem;
+    position: relative;
+    right: -10rem;
+}
+.paragraph-2 h1{
+    color: #FAF8F6;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5rem; /* 116.667% */
+    letter-spacing: -0.03125rem;
+}
+.paragraph-2 h1 span{
+    color: #FAF8F6;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    letter-spacing: -0.03125rem;
+    
+}
+.paragraph-2 p{
+    font-size: 20px;
+    
+}
+.paragraph-2 h3{
+    font-size: 18px;
+    position: relative;
+    bottom: -8%;
+}
+.paragraph-2 h4{
+    width: 11.875rem;
+    color: var(--Cream, #F3EDE7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-style: normal;
+   font-weight: 400;
+   line-height: 1.625rem; 
+   letter-spacing: 0.15625rem;
+   position: relative;
+   bottom: -15px;
+}
+.jeremy-photo{
+    position: relative;
+    width: 22.48813rem;
+    height: 36.84731rem;
+    flex-shrink: 0;
+    left: 0;
+    top: -60px;
+}
+footer{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    padding-top: 2pc;
+    padding-bottom: 5pc;
+    margin-bottom: 2pc;
+}
+.social{
+    display: flex;
+    gap: 15px;
+}
+
+.suite-word{
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; 
+    letter-spacing: -0.02775rem;
+
+}
+footer img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+footer img:hover{
+    transform: translateY(-10px);
+}
+legend{
+    color: var(--Grey, #49566D);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem;
+letter-spacing: 0.00519rem;
+}
