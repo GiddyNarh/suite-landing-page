@@ -2,7 +2,7 @@ body{
     width: 1154px;
     height: 100vh;
     position: relative;
-    left: 2%;    
+    left: 5%;    
 }
 header{
     display: flex;
@@ -36,8 +36,8 @@ section{
 }
 .top-curve{
     position: relative;
-    left: 27%;
-    top: 10%;
+    left: 39%;
+    top: 13%;
 }
 button{
     height: 50px;
@@ -208,6 +208,7 @@ footer{
 .social{
     display: flex;
     gap: 15px;
+    margin-right: 3pc;
 }
 
 .suite-word{
